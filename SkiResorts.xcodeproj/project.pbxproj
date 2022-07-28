@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		E9162879287C43D100F5D9F7 /* SkiResortsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9162878287C43D100F5D9F7 /* SkiResortsApp.swift */; };
-		E916287B287C43D100F5D9F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E916287A287C43D100F5D9F7 /* ContentView.swift */; };
 		E916287D287C43D500F5D9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E916287C287C43D500F5D9F7 /* Assets.xcassets */; };
 		E9162880287C43D500F5D9F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E916287F287C43D500F5D9F7 /* Preview Assets.xcassets */; };
+		E9162887287C441900F5D9F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9162886287C441900F5D9F7 /* ContentView.swift */; };
+		E9162889287C444A00F5D9F7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9162888287C444A00F5D9F7 /* Model.swift */; };
+		E916288B287C492700F5D9F7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E916288A287C492700F5D9F7 /* CardView.swift */; };
+		E9C6D7D0288F0C4F00E0B8F7 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C6D7CF288F0C4F00E0B8F7 /* RatingsView.swift */; };
+		E9C6D7D2288F210E00E0B8F7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C6D7D1288F210D00E0B8F7 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9162875287C43D100F5D9F7 /* SkiResorts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkiResorts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9162878287C43D100F5D9F7 /* SkiResortsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiResortsApp.swift; sourceTree = "<group>"; };
-		E916287A287C43D100F5D9F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E916287C287C43D500F5D9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E916287F287C43D500F5D9F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9162886287C441900F5D9F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9162888287C444A00F5D9F7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E916288A287C492700F5D9F7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E9C6D7CF288F0C4F00E0B8F7 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		E9C6D7D1288F210D00E0B8F7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				E9162878287C43D100F5D9F7 /* SkiResortsApp.swift */,
-				E916287A287C43D100F5D9F7 /* ContentView.swift */,
+				E9162886287C441900F5D9F7 /* ContentView.swift */,
+				E9162888287C444A00F5D9F7 /* Model.swift */,
 				E916287C287C43D500F5D9F7 /* Assets.xcassets */,
+				E916288A287C492700F5D9F7 /* CardView.swift */,
 				E916287E287C43D500F5D9F7 /* Preview Content */,
+				E9C6D7CF288F0C4F00E0B8F7 /* RatingsView.swift */,
+				E9C6D7D1288F210D00E0B8F7 /* DetailView.swift */,
 			);
 			path = SkiResorts;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E916287B287C43D100F5D9F7 /* ContentView.swift in Sources */,
+				E9162889287C444A00F5D9F7 /* Model.swift in Sources */,
+				E9C6D7D2288F210E00E0B8F7 /* DetailView.swift in Sources */,
+				E9162887287C441900F5D9F7 /* ContentView.swift in Sources */,
+				E9C6D7D0288F0C4F00E0B8F7 /* RatingsView.swift in Sources */,
+				E916288B287C492700F5D9F7 /* CardView.swift in Sources */,
 				E9162879287C43D100F5D9F7 /* SkiResortsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
