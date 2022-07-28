@@ -15,3 +15,7 @@ En este repo hay varias cosas que te pueden ser util para practicar y aprender, 
 de calificaciones segun las receñas de cualquier elemento en una vista de tipo card.
 
 tambien aprenderas a crear el efecto parallax, y a crear una cardView adaptable a distintos tamaños de pantall, etc.
+
+
+https://user-images.githubusercontent.com/101027497/181644744-4ebc2981-bc2f-4112-b416-9190ccaa579d.mp4
+
